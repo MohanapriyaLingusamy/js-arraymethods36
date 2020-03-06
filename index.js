@@ -58,8 +58,8 @@ console.log(arr.reduce(func," "))
 
 //slice
 //The slice() method returns the selected elements in an array, as a new array object.
-//output:3 4 a
-console.log(arr.slice(2,5))
+//output:3 4 a//doesnot affect the actuall array
+console.log(arr.slice(2,5))//from 2 to 5th index
 
 //splice
 //The splice() method adds/removes items to/from an array, and returns the removed item
@@ -70,7 +70,7 @@ console.log(arr)
 //sort
 //Arranging the elements in order
 //output:1, 2, 4, 8.8, 9.77, "a", "b", "c", "x", "y"
-console.log(arr.sort());
+console.log(arr.sort());//arr.sort((a,b)=>a-b)-->asc
 
 //reverse
 //Reverse the array
