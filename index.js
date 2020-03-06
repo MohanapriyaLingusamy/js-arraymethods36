@@ -38,12 +38,12 @@ console.log(arr.includes('e'));
 //indexOf
 //finds the index of variable in array
 //output:1
-console.log(arr.indexOf(2))
+console.log(arr.indexOf(2))//only for primitive types
 
 //findindex
 //The findIndex() method returns the index of the first element in the array that satisfies the provided testing function.
 //output:3
-console.log(arr.findIndex(x=>x>3))
+console.log(arr.findIndex(x=>x>3))//for objects
 
 //find
 //It returns the value if it is contained in the array
