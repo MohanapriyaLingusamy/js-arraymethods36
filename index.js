@@ -118,3 +118,12 @@ let z={a:1,b:4,c:{d:10}}
 let{c:{d}}=z
 o/p:d=10
 c:{d:10}*/
+
+/*
+//rest operator
+function fn(...arg){
+  console.log(args);
+}*/
+/*
+//spread operator
+array=[...ar1,...ar2]*/
