@@ -106,3 +106,15 @@ console.log(arr.shift())
 arr.unshift(100,10000)
 console.log(arr)
 
+//object Destructive
+/*const obj={name:"a",mark:0}
+const {name}=obj;-->new variable with variable name "name" is created
+*/
+//Destructive for arrays.
+/*arr=[1,3,4,6]
+let [number]=arr*/
+/*
+let z={a:1,b:4,c:{d:10}}
+let{c:{d}}=z
+o/p:d=10
+c:{d:10}*/
