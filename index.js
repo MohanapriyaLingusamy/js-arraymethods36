@@ -6,6 +6,8 @@ arr.forEach(item => {
    console.log(item+" "); 
 });
 
+//array.forEach(item,index,arr)=>{}
+
 //for loop
 //output:1 2 3 4 5 a b c 8.8 9.77
 for(let x of arr){
@@ -27,8 +29,8 @@ const ans=arr.filter(x=>x>1)
 console.log(ans)
 
 //include
-//The includes() method determines whether a string contains the characters of a specified string.
-console.log(arr.includes(2));
+//The includes() method determines whether a string contains the characters of a specified string.//only for primitve type 
+console.log(arr.includes(2));//doesn't wrk for objects
 //output:true
 console.log(arr.includes('e'));
 //output:false
