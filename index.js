@@ -6,6 +6,12 @@ arr.forEach(item => {
    console.log(item+" "); 
 });
 
+//for loop
+//output:1 2 3 4 5 a b c 8.8 9.77
+for(let x of arr){
+  console.log(x);
+}
+
 //map
 //The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.
 //output:2 3 4 5 6 a1 b1 c1 9.8 10.77
