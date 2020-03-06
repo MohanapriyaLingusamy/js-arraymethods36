@@ -126,4 +126,4 @@ function fn(...arg){
 }*/
 /*
 //spread operator
-array=[...ar1,...ar2]*/
+array=[...ar1,...ar2,...ar3]//concats arrays*/
